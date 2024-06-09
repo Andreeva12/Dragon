@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Bug</title>
+    <link rel="icon" href="icon/logo.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/hlpfrq.css">
+</head>
+<body>
+    
+    <!-- Шапка сайта -->
+    <header class="centered-header bg-gray-100 p-4">
+        <div class="content flex items-center justify-between">
+            <!-- Логотип и навигация -->
+            <div class="flex items-center space-x-4">
+                <a rel="noopener noreferrer" href="#" aria-label="Back to homepage" class="flex items-center p-2">
+                    <img src="icon/logo.png" alt="Логотип" class="w-8 h-8">
+                </a>
+                <nav class="flex space-x-4">
+                    <li class="flex">
+                        <a rel="noopener noreferrer" href="index.html" class="flex items-center px-4 -mb-1 border-b-2 dark:border-violet-600 dark:text-violet-600">Home</a>
+                    </li>
+                    <li class="flex">
+                        <a rel="noopener noreferrer" href="#" class="flex items-center px-4 -mb-1 border-b-2 dark:border-">News</a>
+                    </li>
+                </nav>
+            </div>
+
+            <!-- Поиск, уведомления и аватар пользователя -->
+            <div class="flex items-center space-x-4">
+                <div class="relative">
+                    <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+                        <button type="submit" title="Search" class="p-1 focus:outline-none focus:ring">
+                            <img src="icon/search.png" alt="Search Icon" class="w-4 h-4">
+                        </button>
+                    </span>
+                    <input type="search" name="Search" placeholder="Search..." class="w-32 py-2 pl-10 text-sm rounded-md sm:w-auto focus:outline-none dark:bg-gray-100 dark:text-gray-800 focus:dark:bg-gray-50">
+                </div>
+                <a href="#" class="hover:text-white">
+                    <img src="icon/fafabell.png" alt="Уведомления" class="w-5 h-5">
+                </a>
+                <img src="icon/profil.jpeg" alt="User Avatar" class="rounded-full" width="50" height="50">
+                <a href="LogUp.html" target="_blank" class="desktop-login hidden px-6 py-2 font-semibold rounded lg:block dark:bg-violet-600 dark:text-gray-50">Log Up</a>
+                <a href="login.html" target="_blank" class="mobile-login px-4 py-2 font-semibold rounded bg-violet-600 text-white lg:hidden">Log in</a>
+            </div>
+        </div>
+    </header>
+
+      <!-- Контентный блок -->
+    <main class="main-content">
+        <section class="content-block">
+            <article class="bg-gray-100 p-4 rounded">
+                <img src="icon/questions.jpg" alt="Article Image" class="rounded article-img">
+                <h1 class="content-title">3 best questions for the QA Manager interview</h1>
+                <div class="entry-content clear" ast-blocks-layout="true" itemprop="text">
+                    <p>In this article, you will learn more about how to conduct interviews with candidates for the QA engineer position.</p>
+                    <p>Your team is ready to hire a new software tester. What questions can you ask a QA specialist to determine how qualified the candidate is? If you prepare well and get lucky, you won't have to go through many other resumes for a long time.</p>
+                    <p>It is quite normal to ask obvious questions to the candidate first. It makes sense to confirm the knowledge of the subject area based on the statements made in the candidate's resume. What to ask next?</p>
+                    <p>In this article, we will look at the best questions and answers for QA interviews to help you prepare for an interview with a candidate.</p>
+                    <h2 class="wp-block-heading">1. What testing methodologies have you used?</h2>
+                    <p>Do you have experience with <a href="https://www.agilealliance.org/agile101/" target="_blank" rel="noreferrer noopener">agile</a> or <a href="https://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm" target="_blank" rel="noreferrer noopener">waterfall</a>? Does the word “scrum” mean anything to you? Do you finish the sprint on time?</p>
+                    <p>“During the interview, I try to understand how complex the candidate's job was,” says Egor Bulykhin, project manager at Smart IT. "The candidate may have worked as a tester for ten years, but that does not mean that he has the depth and breadth of experience your company needs."</p>
+                    <p>Ask the candidate to explain which methodology they prefer and why. This will demonstrate how well they understand the pros and cons of each. It also confirms communication skills, and, as you know, the ability to clearly articulate your thoughts is one of the most important qualities for QA engineers.</p>
+                    <h2 class="wp-block-heading">2. What testing software do you use?</h2>
+                    <p><a href="https://www.selenium.dev/" target="_blank" rel="noreferrer noopener">Selenium</a>. <a href="https://www.ibm.com/products/rational-functional-tester#:~:text=IBM%20Rational%20Functional%20Tester%20is,%2C%20including%20web%2Dbased%2C%20." target="_blank" rel="noreferrer noopener">IBM Functional Tester.</a> <a href="https://support.smartbear.com/testcomplete/docs/general-info/introducing-testcomplete.html" target="_blank" rel="noreferrer noopener">TestComplete</a>. <a href="https://katalon.com/" target="_blank" rel="noreferrer noopener">Katalon Studio</a>. <a href="https://www.functionize.com/" target="_blank" rel="noreferrer noopener">Functionize</a>. Your candidate's ability to interact with a particular brand of testing software can be a strong reason for hiring them.</p>
+                    <p>It is good if the candidate is familiar with several tools - this indicates that he understands the pros and cons of each. Even better if the candidate has experience with the software your company uses. In this case, no one will have to spend time training the new hire.</p>
+                    <p>Note that ignorance of a particular tool should not be a reason for refusal. Tools change. You probably don't use the same software you used five years ago. It’s convenient if the candidate is familiar with your software, but in the long run, it’s more important to find someone who loves learning new things.</p>
+                    <h2 class="wp-block-heading">3. What is your experience with automated and manual testing?</h2>
+                    <p>Again, it’s helpful to choose a candidate who is familiar with current business processes while adding variety with someone who thinks differently.</p>
+                    <p>If your company is adopting test automation, it's helpful to know that the candidate is familiar with the concept. On the other hand, experienced QA engineers understand that humans are always needed in testing to do work that machines cannot handle. Testers can find elusive bugs and improve the user experience.</p>
+                    <p>But the real question is whether the applicant for the position adheres to the rigid approach of "we have always done it this way." This often indicates an unwillingness to adopt new methods or learn about various additional tools.</p>
+                    
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

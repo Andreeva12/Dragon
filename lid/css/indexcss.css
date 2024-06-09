@@ -1,0 +1,108 @@
+.centered-header,
+.centered-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+    max-width: 1200px;
+    padding: 1rem;
+}
+
+.centered-main {
+    display: grid;
+    justify-content: center;
+}
+
+@media (max-width: 1024px) {
+    .desktop-login {
+        display: none;
+    }
+
+    .mobile-login {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 1024px) {
+    .mobile-login {
+        display: none;
+    }
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item .img {
+    margin-right: 0.5rem;
+}
+
+.ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-content .div {
+    flex: 1 1 200px; /* Гибкие блоки с минимальной шириной */
+}
+
+.button {
+    height: 30px;
+    width: 100px;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #252525;
+    overflow: hidden;
+    border-radius: 30px;
+    color: #333;
+    transition: all 0.5s ease-in-out;
+    margin: 10px; 
+}
+
+.btn-txt {
+    z-index: 1;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+.type1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #333;
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+}
+
+.button:hover {
+    box-shadow: 1px 1px 200px #252525;
+    color: #fff;
+    border: none;
+}
+
+.type1:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+}
+
+.article-img {
+    width: 530px; /* Измените это значение на нужный вам размер */
+    height: auto; /* Сохраняет пропорции изображения */
+}

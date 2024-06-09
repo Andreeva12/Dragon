@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Bug</title>
+    <link rel="icon" href="icon/logo.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/indexcss.css">
+</head>
+
+<body class="bg-white text-black">
+    <!-- Шапка сайта -->
+    <header class="centered-header bg-gray-100 p-4">
+        <div class="content flex items-center justify-between">
+            <!-- Логотип и навигация -->
+            <div class="flex items-center space-x-4">
+                <a rel="noopener noreferrer" href="#" aria-label="Back to homepage" class="flex items-center p-2">
+                    <img src="icon/logo.png" alt="Логотип" class="w-8 h-8">
+                </a>
+                <nav class="flex space-x-4">
+                    <li class="flex">
+                        <a rel="noopener noreferrer" href="index.html" class="flex items-center px-4 -mb-1 border-b-2 dark:border-violet-600 dark:text-violet-600">Home</a>
+                    </li>
+                    <li class="flex">
+                        <a rel="noopener noreferrer" href="#" class="flex items-center px-4 -mb-1 border-b-2 dark:border-">News</a>
+                    </li>
+                </nav>
+            </div>
+
+            <!-- Поиск, уведомления и аватар пользователя -->
+            <div class="flex items-center space-x-4">
+                <div class="relative">
+                    <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+                        <button type="submit" title="Search" class="p-1 focus:outline-none focus:ring">
+                            <img src="icon/search.png" alt="Search Icon" class="w-4 h-4">
+                        </button>
+                    </span>
+                    <input type="search" name="Search" placeholder="Search..." class="w-32 py-2 pl-10 text-sm rounded-md sm:w-auto focus:outline-none dark:bg-gray-100 dark:text-gray-800 focus:dark:bg-gray-50">
+                </div>
+                <a href="#" class="hover:text-white">
+                    <img src="icon/fafabell.png" alt="Уведомления" class="w-5 h-5">
+                </a>
+                <img src="icon/profil.jpeg" alt="Аватар пользователя" class="rounded-full" width="50" height="50">
+                
+
+
+
+
+
+                <a href="lid/LogUp.html" target="_blank" class="desktop-login hidden px-6 py-2 font-semibold rounded lg:block dark:bg-violet-600 dark:text-gray-50">Log Up</a>
+                <a href="lid/login.html" target="_blank" class="mobile-login px-4 py-2 font-semibold rounded bg-violet-600 text-white lg:hidden">Log in</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main class="centered-main">
+        <div class="content flex mt-6">
+            <!-- Боковая панель навигации -->
+            <aside class="w-1/4 p-4 space-y-6">
+                <div>
+                    <h2 class="text-lg font-bold mb-4">Navigation</h2>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="nav-item hover:text-blue"><img src="icon/home.png" alt="home page" class="w-4 h-4">Home</a></li>
+                        <li>
+                            <a href="lid/helpfqa.html" class="nav-item hover:text-blue" target="_blank">
+                                <img src="icon/helpfq.png" alt="helpfq" class="w-4 h-4">
+                                Help for QA
+                            </a>
+                        </li>
+                        <li><a href="#" class="nav-item hover:text-blue"><img src="icon/interw.png" alt="interw" class="w-4 h-4">Interviews</a></li>
+                        <li><a href="#" class="nav-item hover:text-blue"><img src="icon/podc.png" alt="podcast" class="w-4 h-4">Podcasts</a></li>
+                        <li><a href="lid/about.html" class="nav-item hover:text-blue" target="_blank"><img src="icon/about.png" alt="about" class="w-4 h-4">About</a></li>
+                        <li><a href="lid/contact.html" class="nav-item hover:text-blue" target="_blank"><img src="icon/contact.png" alt="contact" class="w-4 h-4">Contact</a></li>
+                        <li><a href="#" class="nav-item hover:text-blue"><img src="icon/memes.png" alt="memes" class="w-4 h-4">Mems</a></li>
+                    </ul>
+                </div>
+                
+            </aside>
+
+            <!-- Основной раздел статей -->
+            <section class="w-2/4 p-4 space-y-6">
+                <!-- Статья 1 -->
+                <article class="bg-gray-100 p-4 rounded">
+                    <img src="icon/news1.jpg" alt="Изображение статьи" class="rounded article-img">
+                    <h2 class="text-2xl font-bold mt-4">❌ Typical mistakes in a technical interview</h2>
+                    <p class="mt-2">In an interview, a beginner usually does not have a second chance to make a good impression. It is necessary to know your weaknesses and strengths in advance in order to prepare for them.</p> 
+                    <p>How to do it?</p>
+                </article>
+
+                <!-- Статья 2 -->
+                <article class="bg-gray-100 p-4 rounded">
+                    <img src="icon/news2.jpg" alt="Изображение статьи" class="rounded article-img">
+                    <h2 class="text-2xl font-bold mt-4">Online code editor from Raspberry Pi</h2>
+                    <p class="mt-2">Raspberry Pi Foundation has released an online code editor, focused on educational goals. Currently, the editor supports Python, HTML and CSS.</p>
+                </article>
+
+                <!-- Статья 3 -->
+                <article class="bg-gray-100 p-4 rounded">
+                    <img src="icon/news3.jpg" alt="Изображение статьи" class="rounded article-img">
+                    <h2 class="text-2xl font-bold mt-4">How do I connect my iPhone to a Windows computer?</h2>
+                    <p class="mt-2">iPhone users using the Windows 11 operating system can now enjoy convenient cross-platform functionality that has been available for other systems for a long time.</p>
+                </article>
+
+                <!-- Повторяющиеся статьи -->
+                <div class="space-y-4">
+                    <article class="bg-gray-100 p-4 rounded">
+                        <h3 class="text-xl font-bold">How are things going with relocation to IT now?</h3>
+                        <p class="text-sm">I really want to deal with relaxation trends. What is actually happening now 2 years after the start of the active phase. </p>
+                        <p class="mt-2">1) How do those who have left behave: stay, return, go further?</p>
+                        <p class="mt-2">2) How do the remaining ones behave: they stay, they are going to leave, they have returned and are preparing to move again?</p>
+                        <p class="mt-2">3) If they move, then with whom and at whose expense: does the company help, or is it a solo move.</p>
+                    </article>
+                    <article class="bg-gray-100 p-4 rounded">
+                        <h3 class="text-xl font-bold">Questions at the Junior/Middle QA meeting</h3>
+                        <p></p>
+                        <p class="mt-2">I. General:</p>
+                        <p class="mt-2">1. Why are you looking for a new job</p>
+                        <p class="mt-2">2. What's wrong with the current company</p>
+                        <p class="mt-2">3. Why are you interested in our company</p>
+                        <p class="mt-2">4. How did you get into testing and why</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Правая боковая панель -->
+            <aside class="w-1/4 p-4 space-y-6">
+                <div class="bg-gray-100 p-4 rounded">
+                    <h2 class="text-lg font-bold mb-4">News</h2>
+                    <ul class="space-y-2">
+                        <li>The official ISTQB glossary has its own interactive quiz for all levels. So save and practice.</li>
+                        <a href="https://glossary.istqb.org/en_US/quiz">
+                            <button class="button type1">
+                                <span class="btn-txt">More</span>
+                            </button>
+                        </a>
+                    </ul>
+                </div>
+                <div class="bg-gray-100 p-4 rounded">
+                    <h2 class="text-lg font-bold mb-4">Popular commands</h2>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white">#shutdown /s – Shutdown Windows.</a></li>
+                        <li><a href="#" class="hover:text-white">#shutdown /r – Restart Windows.</a></li>
+                        <li><a href="#" class="hover:text-white">#shutdown /l – End the current user session.</a></li>
+                        <li><a href="#" class="hover:text-white">#shutdown /h – Switch to hibernation mode</a></li>
+                    </ul>
+                </div>
+                <div class="bg-gray-100 p-4 rounded">
+                    <div class="flex justify-between p-4">
+                        <div class="flex space-x-4">
+                            <div>
+                                <img src="icon/otzuv.jpg" alt="profilphoto" class="rounded-full" width="50" height="50"> 
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Lerik Jukov</h4>
+                                <span class="text-xs dark:text-gray-600">2 days ago</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-2 dark:text-yellow-700">
+                            <img src="icon/star.png" viewBox="0 0 512 512" class="w-5 h-5 fill-current">
+                            <span class="text-xl font-bold">4.5</span>
+                        </div>
+                    </div>
+                    <div class="p-4 space-y-2 text-sm dark:text-gray-600">
+                        <p>The information was very helpful in preparing for the interview.</p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Футер -->
+    <footer class="centered-footer bg-gray-100 p-6 text-gray-800">
+        <div class="content flex flex-wrap justify-between mx-auto gap-4">
+            <div class="flex flex-col space-y-4">
+                <h2 class="font-medium">Community</h2>
+                <div class="flex flex-col space-y-2 text-sm text-gray-600">
+                    <a rel="noopener noreferrer" href="#">GitHub</a>
+                    <a rel="noopener noreferrer" href="#">Discord</a>
+                    <a rel="noopener noreferrer" href="#">Twitter</a>
+                    <a rel="noopener noreferrer" href="#">YouTube</a>
+                </div>
+            </div>
+            <div class="flex flex-col space-y-4">
+                <h2 class="font-medium">Site map</h2>
+                <div class="flex flex-col space-y-2 text-sm text-gray-600">
+                    
+                </div>
+            </div>
+            <div class="flex flex-col space-y-4">
+                <h2 class="font-medium">Browser Support</h2>
+                <div class="flex flex-col space-y-2 text-sm text-gray-600">
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="flex items-center justify-center px-6 pt-12 text-sm">
+        <span class="text-gray-600">© Copyright 1986. All Rights Reserved.</span>
+    </div>
+</body>
+
+</html>

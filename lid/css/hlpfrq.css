@@ -1,0 +1,105 @@
+.body {
+    background-color: white; /* Фон */
+    color: black; /* Текст */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.centered-header {
+    background-color: #f3f4f6; /* Фон шапки */
+    width: 100%;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Центрирование по вертикали */
+    align-items: center; /* Центрирование по горизонтали */
+    flex-grow: 1;
+    background-color: white; /* Убедитесь, что фон белый */
+}
+
+.content-block {
+    background-color: #f3f4f6; /* Фон блока */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    max-width: 800px; /* Максимальная ширина */
+    width: 100%; /* Ширина 100% для адаптивности */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для визуального эффекта */
+}
+
+.article-img {
+    width: 100%; /* Измените на нужный вам размер */
+    max-width: 800px; /* Максимальная ширина */
+    height: auto; /* Сохраняет пропорции изображения */
+    border-radius: 8px;
+    background-color: white; /* Убедитесь, что фон белый */
+}
+
+.content-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.content-meta {
+    margin: 10px 0;
+}
+
+.content-meta-link {
+    color: #00aaff; /* Цвет ссылок */
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.content-meta-link:hover {
+    text-decoration: underline;
+}
+
+.content-text {
+    margin: 10px 0;
+}
+
+/* Новые стили для контактного блока */
+.contact-block {
+    background-color: #f3f4f6; /* Фон блока */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    max-width: 800px; /* Максимальная ширина */
+    width: 100%; /* Ширина 100% для адаптивности */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для визуального эффекта */
+    text-align: center;
+}
+
+.contact-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.contact-description {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.contact-links a {
+    color: #00aaff; /* Цвет ссылок */
+    text-decoration: none;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}
+/* Конец новых стилей для контактного блока */
+ .contact-links ul {
+            list-style-type: disc; /* Тип маркера */
+            padding-left: 20px; /* Отступ слева для маркеров */
+            text-align: left; /* Выравнивание текста по левому краю */
+            display: inline-block; /* Для корректного выравнивания внутри блока */
+        }

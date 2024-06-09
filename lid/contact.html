@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Bug</title>
+    <link rel="icon" href="icon/logo.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/hlpfrq.css">
+</head>
+<body>
+    
+    <!-- Шапка сайта -->
+    <header class="centered-header bg-gray-100 p-4">
+        <div class="content flex items-center justify-between">
+            <!-- Логотип и навигация -->
+            <div class="flex items-center space-x-4">
+                <a rel="noopener noreferrer" href="#" aria-label="Back to homepage" class="flex items-center p-2">
+                    <img src="icon/logo.png" alt="Логотип" class="w-8 h-8">
+                </a>
+                <nav class="flex space-x-4">
+                    <li class="flex">
+                        <a rel="noopener noreferrer" href="index.html" class="flex items-center px-4 -mb-1 border-b-2 dark:border-violet-600 dark:text-violet-600">Home</a>
+                    </li>
+                    <li class="flex">
+                        <a rel="noopener noreferrer" href="#" class="flex items-center px-4 -mb-1 border-b-2 dark:border-">News</a>
+                    </li>
+                </nav>
+            </div>
+
+            <!-- Поиск, уведомления и аватар пользователя -->
+            <div class="flex items-center space-x-4">
+                <div class="relative">
+                    <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+                        <button type="submit" title="Search" class="p-1 focus:outline-none focus:ring">
+                            <img src="icon/search.png" alt="Search Icon" class="w-4 h-4">
+                        </button>
+                    </span>
+                    <input type="search" name="Search" placeholder="Search..." class="w-32 py-2 pl-10 text-sm rounded-md sm:w-auto focus:outline-none dark:bg-gray-100 dark:text-gray-800 focus:dark:bg-gray-50">
+                </div>
+                <a href="#" class="hover:text-white">
+                    <img src="icon/fafabell.png" alt="Уведомления" class="w-5 h-5">
+                </a>
+                <img src="icon/profil.jpeg" alt="User Avatar" class="rounded-full" width="50" height="50">
+                <a href="LogUp.html" target="_blank" class="desktop-login hidden px-6 py-2 font-semibold rounded lg:block dark:bg-violet-600 dark:text-gray-50">Log Up</a>
+                <a href="login.html" target="_blank" class="mobile-login px-4 py-2 font-semibold rounded bg-violet-600 text-white lg:hidden">Log in</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Контактный блок -->
+    <main class="main-content">
+        <section class="contact-block">
+            <div class="contact-info">
+                <h2 class="contact-title">Contacts</h2>
+                <p class="contact-description">This work was done by Malashchytskaya Ekaterina</p>
+                <p class="contact-links">
+                    <a href="https://github.com/Andreeva12?tab=repositories" target="_blank">GitHub Profile</a><br>
+                    <a href="mailto:375447522509gercog@gmail.com">375447522509gercog@gmail.com</a> / 
+                    <a href="mailto:andreevagercog@gmail.com">andreevagercog@gmail.com</a>
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
